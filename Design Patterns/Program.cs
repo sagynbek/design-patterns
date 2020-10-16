@@ -1,4 +1,5 @@
 ﻿using Design_Patterns.Creational_Patterns.Factory_Method;
+using Design_Patterns.Creational_Patterns.Singleton;
 using System;
 
 namespace Design_Patterns
@@ -7,7 +8,8 @@ namespace Design_Patterns
     {
         static void Main(string[] args)
         {
-            new FactoryMethodPattern();
+            //new FactoryMethodPattern();
+            new Singleton();
         }
     }
 }
